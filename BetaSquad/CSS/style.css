@@ -1,63 +1,73 @@
 body {
-    background-color: #8D99AE;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    color: #2B2D42; 
+    text-align: center;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.Para {
+    text-align: center;
+    margin: 20px;
+    padding: 0 10%;
 }
 
 .Box1 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
 .Box1 img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
-}
-
-.Para {
-    justify-content: center;
-    font-size: 1.2em; 
-    text-align: center;
-    color: #2B2D42; 
-    margin: 20px; 
-}
-
-.Musikk,
-.Logan {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.Musikk img {
-    max-width: 20%; 
-    height: auto;
-    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 p {
-    text-align: center;
-    color: #2B2D42; 
+    text-align: justify;
+    margin: 20px;
+    padding: 0 10%;
+    color: #555555;
 }
 
-.Logan img {
-    max-width: 50%; 
+.Musikk {
+    text-align: center;
+    margin: 20px;
+    padding: 0 10%;
+}
+
+.Musikk img {
+    max-width: 100%;
     height: auto;
-    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 }
 
 .SIDEMEN {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px; 
+    text-align: center;
+    margin: 20px;
+}
+
+.SIDEMEN img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.SIDEMEN img:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
 }

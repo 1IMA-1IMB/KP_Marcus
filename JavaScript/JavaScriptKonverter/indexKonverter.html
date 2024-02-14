@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konvertering</title>
+    <script src="konverter.js"></script>
+    <link rel="stylesheet" href="konverter.css">
+</head>
+<body>
+    <div class="alt">
+     <h2>konvertering</h2>
+
+     <label for="inputValue">Skriv inn tallet:</label>
+     <input type="number" id="inputValue" placeholder="Skriv inn tallet">
+
+     <br>
+
+     <label for="fromUnit">Konverter fra:</label>
+     <select id="fromUnit">
+        <option value="spiseskjeer">Spiseskjeer</option>
+        <option value="cups">Cups</option>
+        <option value="gallon">Gallon</option>
+        <option value="ounces">Ounces</option>
+     </select>
+
+     <br>
+
+     <button onclick="convert()">Konverter</button>
+
+     <br>
+ 
+     <h3>Resultat:</h3>
+     <p id="result"></p>
+
+       <div class="Button1">
+         <button onclick="switchConversion()">Bytt konvertering</button>
+        </div> 
+    </div>
+</body>
+</html>
